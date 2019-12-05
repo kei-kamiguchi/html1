@@ -1,0 +1,36 @@
+.contact tr{
+  height: 7rem;
+}
+
+.contact th{
+  width: 150px;
+  text-align: right;
+}
+
+.contact td{
+  width: 480px;
+  padding-left: 1rem;
+}
+
+input[type="text"]{
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+}
+
+.submit_button input{
+  background: #008B8B;
+  color: #fff;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.submit_button{
+  text-align: center;
+}
+
+.submit_button input:hover{
+  opacity: 0.5;
+}
