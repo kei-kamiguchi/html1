@@ -1,0 +1,37 @@
+.contact tr{
+  height: 7rem;
+}
+
+.contact th{
+  width: 150px;
+  text-align: right;
+}
+
+.contact td{
+  width: 480px;
+  padding-left: 1rem;
+}
+
+input[type="text"]{
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+}
+.submit th {
+  text-align: center;
+}
+/* letter-spacingとtext-indentを併用することで、文字の左右の感覚を揃えることができます */
+input[type="submit"]{
+  background: #008B8B;
+  color: #fff;
+  font-size: 3rem;
+  padding: 5px 0;
+  letter-spacing: 1rem;
+  text-indent: 1rem;
+  border: 1px solid #008B8B;
+}
+input[type="submit"]:hover{
+  opacity: 0.5;
+}
